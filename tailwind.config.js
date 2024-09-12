@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#1E40AE",
+        textGray: "#4B5563",
+      },
+      fontFamily: {
+        urbanist: ["Urbanist", "sans-serif"],
       },
     },
   },
