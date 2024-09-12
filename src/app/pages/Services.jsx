@@ -51,7 +51,7 @@ const ServicesGrid = () => {
   return (
     <div className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-blue-600 mb-2">
+        <h2 className="text-3xl font-bold text-center mb-2 text-primary font-urbanist">
           Services
         </h2>
         <p className="text-center text-gray-600 mb-12">
@@ -63,7 +63,7 @@ const ServicesGrid = () => {
             <div key={index} className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-center mb-4">
                 <service.icon className="text-blue-600 w-8 h-8 mr-3" />
-                <h3 className="text-xl font-semibold text-blue-600">
+                <h3 className="text-xl font-semibold text-primary font-urbanist">
                   {service.title}
                 </h3>
               </div>
@@ -72,7 +72,7 @@ const ServicesGrid = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+          <button className="text-sm bg-white border border-primary font-semibold text-greytext px-6 py-2 rounded-md hover:bg-blue-700 transition-colors">
             View More
           </button>
         </div>
